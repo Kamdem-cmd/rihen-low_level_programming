@@ -7,6 +7,6 @@
  */
 int main(void)
 {
-    printf("Hello from cisfun!\n");
+    printf("Hello, World!\n");
     return (0);
 }
