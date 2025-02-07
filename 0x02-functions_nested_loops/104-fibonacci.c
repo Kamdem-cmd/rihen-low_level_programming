@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int fibonacci(int n)
+long int fibonacci(int n)
 {
 	if (n == 1)
 	{ 
@@ -19,18 +19,18 @@ int fibonacci(int n)
 int main(void)
 {
 	int i = 1;
-	int fib;
+	long int fib;
 
-	while (i <= 98)
+	while (i <= 50)
 	{
 		fib = fibonacci(i);
-		if (i == 98)
+		if (i == 50)
 		{
-			printf("%d", fib);
+			printf("%ld", fib);
 		}
 		else
 		{
-			printf("%d, ", fib);
+			printf("%ld, ", fib);
 		}
 		i++;
 	}
